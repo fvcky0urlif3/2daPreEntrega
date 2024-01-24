@@ -1,8 +1,4 @@
-.integrantes-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+
 
 /* MENU HAMBURGUESA */
 
@@ -62,7 +58,7 @@
     .navbar-toggler-icon {
         font-size: 10px;
     }
-}
+    }
 
 /* medias queries */
 
@@ -117,6 +113,13 @@
         text-align: center;
         padding: 10px;
     }
+    
+    .imagenes {
+        margin:auto;
+        padding:auto;
+        align-items: center;
+        margin-top: 30px;
+         }
 }
 
 /* QUERIES INTEGRANTES */
@@ -136,6 +139,12 @@
     iframe:nth-child(2n) {
         margin-right: 0;
     }
+
+    .integrantes-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
 }
 
 /* QUERIES BUSCAS PIEZAS */
@@ -154,4 +163,3 @@
         margin-right: auto;
     }
 }
-

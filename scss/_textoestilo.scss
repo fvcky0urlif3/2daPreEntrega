@@ -21,25 +21,24 @@ h1, h2 {
   /* primer parrafo */
   
   .leyenda1 {
-    @include textos
+    @include textos;
   }
 
    /* Texto quienes somos */
 
  .texto1 {
-    @include textos
+    @include textos;
 
  }
+ 
 /* Texto ejemplo */
  .texto2 {
-   @include textos
+   @include textos;
  }  
 
   /* h2 la crew */
 .titulo2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
+    @include textos;
 }
 
 .textofotofinal {
