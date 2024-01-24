@@ -1,0 +1,13 @@
+/* mixin */
+
+@mixin textos {
+    color: $color-fuente;
+    margin: 20px;
+    font-family: Georgia;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-inline: 5px;
+    margin-left: 44px;
+    margin-right: 44px;
+    font-weight: bolder;
+}

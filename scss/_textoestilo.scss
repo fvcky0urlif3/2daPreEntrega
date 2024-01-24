@@ -21,32 +21,18 @@ h1, h2 {
   /* primer parrafo */
   
   .leyenda1 {
-    color: $color-fuente;
-    margin: 20px;
-    font-family: Georgia;
+    @include textos
   }
 
    /* Texto quienes somos */
 
  .texto1 {
-    text-decoration: none;
-    margin-top: 30px;
-    margin-inline: 5px;
-    margin-left: 44px;
-    margin-right: 44px;
-    font-weight: bolder;
-    color: $color-fuente;
+    @include textos
 
  }
 /* Texto ejemplo */
  .texto2 {
-    margin-top: 30px;
-    margin-inline: 5px;
-    margin-left: 44px;
-    margin-right: 44px;
-    text-decoration: none;
-    font-weight: bold;
-    color: $color-fuente;
+   @include textos
  }  
 
   /* h2 la crew */
