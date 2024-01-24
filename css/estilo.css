@@ -1,4 +1,17 @@
 @charset "UTF-8";
+/* mixin */
+.imagenes {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  margin-top: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* body */
 body {
   background-color: salmon;
@@ -42,12 +55,14 @@ li {
 /* main */
 main {
   text-align: center;
+  margin: auto;
 }
 
-.integrantes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.imagenes {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  margin-top: 30px;
 }
 
 /* MENU HAMBURGUESA */
@@ -145,6 +160,12 @@ main {
     text-align: center;
     padding: 10px;
   }
+  .imagenes {
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    margin-top: 30px;
+  }
 }
 /* QUERIES INTEGRANTES */
 @media screen and (min-width: 941px) and (max-width: 1240px) {
@@ -160,6 +181,11 @@ main {
   }
   iframe:nth-child(2n) {
     margin-right: 0;
+  }
+  .integrantes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 /* QUERIES BUSCAS PIEZAS */
@@ -196,38 +222,58 @@ h1, h2 {
 
 /* primer parrafo */
 .leyenda1 {
+  text-align: center;
   color: rgb(60, 75, 44);
   margin: 20px;
   font-family: Georgia;
-}
-
-/* Texto quienes somos */
-.texto1 {
   text-decoration: none;
   margin-top: 30px;
   margin-inline: 5px;
   margin-left: 44px;
   margin-right: 44px;
   font-weight: bolder;
-  color: rgb(60, 75, 44);
 }
 
-/* Texto ejemplo */
-.texto2 {
+/* Texto quienes somos */
+.texto1 {
+  text-align: center;
+  color: rgb(60, 75, 44);
+  margin: 20px;
+  font-family: Georgia;
+  text-decoration: none;
   margin-top: 30px;
   margin-inline: 5px;
   margin-left: 44px;
   margin-right: 44px;
-  text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+/* Texto ejemplo */
+.texto2 {
+  text-align: center;
   color: rgb(60, 75, 44);
+  margin: 20px;
+  font-family: Georgia;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-inline: 5px;
+  margin-left: 44px;
+  margin-right: 44px;
+  font-weight: bolder;
 }
 
 /* h2 la crew */
 .titulo2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(60, 75, 44);
+  margin: 20px;
+  font-family: Georgia;
   text-decoration: none;
+  margin-top: 30px;
+  margin-inline: 5px;
+  margin-left: 44px;
+  margin-right: 44px;
+  font-weight: bolder;
 }
 
 .textofotofinal {
@@ -266,22 +312,6 @@ h1, h2 {
   right: 20px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.imagenes {
-  align-items: center;
-  margin-top: 30px;
-}
-
-/* link de YT */
-.link1 {
-  margin-top: 35px;
-}
-
-/* foto final */
 /* box de contacto */
 form {
   margin-top: 20px;

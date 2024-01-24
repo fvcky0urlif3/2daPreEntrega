@@ -1,6 +1,7 @@
 /* mixin */
 
 @mixin textos {
+    text-align: center;
     color: $color-fuente;
     margin: 20px;
     font-family: Georgia;
