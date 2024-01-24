@@ -1,0 +1,64 @@
+/* H1 */
+
+h1, h2 {
+  color: $color-fuente;
+    margin-top: 10px;
+    font-family: Georgia;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    color: $color-fuente;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid $color-fuente;
+  }
+  
+  /* primer parrafo */
+  
+  .leyenda1 {
+    color: $color-fuente;
+    margin: 20px;
+    font-family: Georgia;
+  }
+
+   /* Texto quienes somos */
+
+ .texto1 {
+    text-decoration: none;
+    margin-top: 30px;
+    margin-inline: 5px;
+    margin-left: 44px;
+    margin-right: 44px;
+    font-weight: bolder;
+    color: $color-fuente;
+
+ }
+/* Texto ejemplo */
+ .texto2 {
+    margin-top: 30px;
+    margin-inline: 5px;
+    margin-left: 44px;
+    margin-right: 44px;
+    text-decoration: none;
+    font-weight: bold;
+    color: $color-fuente;
+ }  
+
+  /* h2 la crew */
+.titulo2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.textofotofinal {
+  color: $color-fuente;
+  margin-top: 20px;
+  border-top: 2px solid $color-fuente;
+  border-bottom: 2px solid $color-fuente;
+}
